@@ -23,6 +23,8 @@ sudo apt install -yq tcpreplay libjsoncpp-dev
 
 ### Configs
 
+![network](./docs/network.png)
+
 ```yaml
 # the following network configs need be modified by another computer which runs the ouster driver and receive udp data
 # the settings could be getten by the command `ifconfig`
