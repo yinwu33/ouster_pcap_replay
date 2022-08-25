@@ -1,0 +1,35 @@
+{
+  "get_calibration_status" : 
+  {
+    "reflectivity" : 
+    {
+      "timestamp" : "2021-07-09T22:49:18",
+      "valid" : true
+    }
+  },
+  "get_config_param_active" : 
+  {
+    "auto_start_flag" : 1,
+    "azimuth_window" : [ 0, 360000 ],
+    "lidar_mode" : "\"1024x20",
+    "multipurpose_io_mode" : "OFF",
+    "nmea_baud_rate" : "BAUD_9600",
+    "nmea_ignore_valid_char" : 0,
+    "nmea_in_polarity" : "ACTIVE_HIGH",
+    "nmea_leap_seconds" : 0,
+    "operating_mode" : "NORMAL",
+    "phase_lock_enable" : false,
+    "phase_lock_offset" : 0,
+    "signal_multiplier" : 1,
+    "sync_pulse_in_polarity" : "ACTIVE_HIGH",
+    "sync_pulse_out_angle" : 360,
+    "sync_pulse_out_frequency" : 1,
+    "sync_pulse_out_polarity" : "ACTIVE_HIGH",
+    "sync_pulse_out_pulse_width" : 10,
+    "timestamp_mode" : "\"TIME_FROM_PTP_1588",
+    "udp_dest" : "192.168.1.110",
+    "udp_ip" : "\"192.168.1.110",
+    "udp_port_imu" : 7503,
+    "udp_port_lidar" : 7502
+  }
+}

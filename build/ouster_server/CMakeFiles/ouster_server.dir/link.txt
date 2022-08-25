@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ouster_server.dir/ouster_server.cpp.o CMakeFiles/ouster_server.dir/parameter_base.cpp.o CMakeFiles/ouster_server.dir/run.cpp.o CMakeFiles/ouster_server.dir/sensor_config_manager.cpp.o -o ../../bin/ouster_server  -ljsoncpp 

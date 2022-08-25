@@ -1,0 +1,35 @@
+# network:
+#   interface: "enp7s0"
+
+#   dest_mac: "8c:8c:aa:96:a4:fe"
+
+#   new_dest_ip: "192.168.1.200"
+
+# ouster_config: "./config/extra_ouster.json"
+
+# pcap_file:
+#     path: "/home/yinwu/Workspace/test/test.pcap"
+    
+#     old_dest_ip: "192.168.1.207"
+
+#     old_dest_port: 7502
+
+
+network:
+  interface: "enp7s0"
+
+  dest_mac: "48:b0:2d:4d:83:52"
+
+  new_dest_ip: "192.168.1.110"
+
+ouster_config: "./config/extra_ouster.json"
+
+pcap_file:
+    path: "/home/yinwu/Workspace/test/processed.pcap" 
+    # path: "/home/yinwu/Workspace/Projects/Munich/configs/muellerstr/munich_mueller_7502.pcap"
+    
+    old_dest_ip: "192.168.1.110"
+
+    old_dest_port: 7502
+
+
